@@ -1,0 +1,34 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="S-1.Sound.Librarian"
+config/description="Start with the PNG of Roland S-1 Tweak and make it as audio input though local host won't hear it unless an app is set to monitor.
+First tested with Audacity 4.
+Next make it interactive control using MIDI over the USB to play and alter the sounds.
+
+EVENTUALLY,
+All members on the Discord voice channel can control the hosts synth.
+The control app will be coded using Go Dot Game Engine version 4.6 or later.
+"
+run/main_scene="uid://o77d3357pfjn"
+config/features=PackedStringArray("4.6", "GL Compatibility")
+config/icon="res://icon.svg"
+
+[physics]
+
+3d/physics_engine="Jolt Physics"
+
+[rendering]
+
+rendering_device/driver.windows="d3d12"
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
