@@ -1,8 +1,22 @@
 [gd_scene format=3 uid="uid://o77d3357pfjn"]
 
 [ext_resource type="AudioStream" uid="uid://dmjdm6ttdxyp5" path="res://S-1. Sounds/S-1 Tweak Synth -  Ambient Nice.ogg" id="1_ig7tw"]
+[ext_resource type="Texture2D" uid="uid://b0jc3ga2sbpu" path="res://Roland S-1 Control Screen.png" id="2_0xm2m"]
 
 [node name="Main" type="Node2D" unique_id=504953026]
 
-[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=1406367415]
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=620985000]
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer" unique_id=646006849]
+offset_left = 9.0
+offset_top = -6.0
+offset_right = 1119.0
+offset_bottom = 599.0
+texture = ExtResource("2_0xm2m")
+expand_mode = 2
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="CanvasLayer" unique_id=1406367415]
 stream = ExtResource("1_ig7tw")
+volume_db = -27.329
+autoplay = true
+stream_paused = true

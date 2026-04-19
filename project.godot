@@ -21,6 +21,9 @@ The control app will be coded using Go Dot Game Engine version 4.6 or later.
 "
 run/main_scene="uid://o77d3357pfjn"
 config/features=PackedStringArray("4.6", "GL Compatibility")
+boot_splash/bg_color=Color(18.892157, 18.892157, 18.892157, 1)
+boot_splash/stretch_mode=2
+boot_splash/image="uid://bkqw4bt2nuxoj"
 config/icon="uid://bujjmxx5kfua1"
 
 [physics]
