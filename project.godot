@@ -25,6 +25,7 @@ boot_splash/bg_color=Color(18.892157, 18.892157, 18.892157, 1)
 boot_splash/stretch_mode=2
 boot_splash/image="uid://bkqw4bt2nuxoj"
 config/icon="uid://bujjmxx5kfua1"
+boot_splash/minimum_display_time=5000
 
 [physics]
 
