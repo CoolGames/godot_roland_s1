@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dtls6a1eywuig"
+path="res://.godot/imported/S-1 Tweak Synth -  Crunch Chaos.ogg-22fe4545614e54b27e5329199624a86f.oggvorbisstr"
+
+[deps]
+
+source_file="res://S-1. Sounds/S-1 Tweak Synth -  Crunch Chaos.ogg"
+dest_files=["res://.godot/imported/S-1 Tweak Synth -  Crunch Chaos.ogg-22fe4545614e54b27e5329199624a86f.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

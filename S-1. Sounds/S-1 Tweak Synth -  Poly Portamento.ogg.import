@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bky8ookxdnly4"
+path="res://.godot/imported/S-1 Tweak Synth -  Poly Portamento.ogg-0dc5100dbec62351a30ac6ed7138ac2d.oggvorbisstr"
+
+[deps]
+
+source_file="res://S-1. Sounds/S-1 Tweak Synth -  Poly Portamento.ogg"
+dest_files=["res://.godot/imported/S-1 Tweak Synth -  Poly Portamento.ogg-0dc5100dbec62351a30ac6ed7138ac2d.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

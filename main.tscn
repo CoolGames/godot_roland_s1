@@ -1,3 +1,8 @@
 [gd_scene format=3 uid="uid://o77d3357pfjn"]
 
+[ext_resource type="AudioStream" uid="uid://dmjdm6ttdxyp5" path="res://S-1. Sounds/S-1 Tweak Synth -  Ambient Nice.ogg" id="1_ig7tw"]
+
 [node name="Main" type="Node2D" unique_id=504953026]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=1406367415]
+stream = ExtResource("1_ig7tw")
