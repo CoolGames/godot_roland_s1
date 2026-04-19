@@ -17,6 +17,5 @@ expand_mode = 2
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="CanvasLayer" unique_id=1406367415]
 stream = ExtResource("1_ig7tw")
-volume_db = -27.329
+volume_db = -20.0
 autoplay = true
-stream_paused = true
